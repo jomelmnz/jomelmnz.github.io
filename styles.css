@@ -14,7 +14,7 @@
 }
 
 .navbar-color.nav-scrolled .nav-link {
-  color: #ece7e7 !important;
+  color: #f3efef !important;
 }
 
 @font-face {
@@ -28,11 +28,11 @@
   font-family: 'MyCustomFont', sans-serif;
   font-size: 16px;                      
   font-weight: 700;                       
-  letter-spacing: 0.3px;                  
+  letter-spacing: 0.3px;                 
 }
 
 .navbar-logo img {
-  transition: filter 0.3s ease-in-out;
+  transition: filter 0.3s ease-in-out; 
 }
 
 .navbar-color.nav-scrolled .lighten {
