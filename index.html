@@ -3,11 +3,68 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
+    <title>Jose Miguel Manzo</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link href="styles.css" rel="stylesheet">
+  </head>
   </head>
   <body>
-    <h1>Hello, world!</h1>
+    
+    <nav class="navbar navbar-color py-3 px-3 sticky-top">
+      <div class="container-fluid d-flex w-100 align-items-center gap-4">
+
+        <a class="navbar-logo" href="#">
+          <img src="assets/JM LOGO.svg" alt="JM Logo" width="40" height="40" class="d-inline-block align-text-top lighten">
+        </a>
+
+          <ul class="navbar-nav flex-row gap-5 mx-auto">
+            <li class="nav-item">
+              <a class="nav-link active" style="color: #2A2B2A;" aria-current="page" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" style="color: #2A2B2A;" href="#">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" style="color: #2A2B2A;" href="#">Experience</a>
+            </li>
+          </ul>
+
+          <div style="width: 40px;"></div>
+        
+      </div>
+    </nav>
+
+    <main>
+      
+      <section id="about" class="container my-5 min-vh-100 d-flex flex-column justify-content-center">
+        <h2>About Me</h2>
+        <p>Your introduction text goes here...</p>
+      </section>
+
+      <section id="portfolio" class="container my-5 min-vh-100 d-flex flex-column justify-content-center">
+        <h2>My Portfolio</h2>
+        <p>Your project cards or grid will go here...</p>
+      </section>
+
+      <section id="experience" class="container my-5 min-vh-100 d-flex flex-column justify-content-center">
+        <h2>Experience</h2>
+        <p>Your work history or school timeline goes here...</p>
+      </section>
+
+    </main>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <script>
+      const navbar = document.querySelector('.navbar');
+
+      window.addEventListener('scroll', () => {
+        if (window.scrollY > 25) {
+          navbar.classList.add('nav-scrolled');
+        } else {
+          navbar.classList.remove('nav-scrolled');
+        }
+      });
+    </script>
+
   </body>
 </html>
