@@ -98,3 +98,12 @@
 #about {
   scroll-margin-top: 95px; 
 }
+
+@media (max-width: 767px) {
+  .navbar-collapse {
+    background-color: #ffffff; 
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
+  }
+}
