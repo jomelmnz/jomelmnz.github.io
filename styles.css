@@ -70,7 +70,7 @@
   width: 14px;
   height: 14px;
   left: -5.5px;                  
-  top: 5px;                    
+  top: 4px;                    
   background-color: #ffffff !important; 
   border: 2px solid #2A2B2A;   
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15); 
@@ -93,4 +93,8 @@
 .timeline-item:last-child::before {
   bottom: auto;
   height: 0px;
+}
+
+#about {
+  scroll-margin-top: 95px; 
 }
