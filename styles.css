@@ -42,6 +42,10 @@
   font-size: 18px;
 }
 
+.text-font{
+  font-family: 'MyCustomFont', sans-serif;
+}
+
 .text-color{
   color: #2A2B2A;
 }
