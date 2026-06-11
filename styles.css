@@ -118,7 +118,6 @@
   }
 }
 
-/* Base font sizes for small mobile screens (Android Compact) */
 .responsive-title {
   font-size: 1.2rem;
   line-height: 1.2;
@@ -130,7 +129,6 @@
   font-size: 0.65rem;
 }
 
-/* Upscale fonts smoothly once screen reaches tablet or desktop dimensions */
 @media (min-width: 495px) {
   .responsive-title {
     font-size: 1.8rem;
@@ -145,12 +143,34 @@
 
 @media (min-width: 768px) {
   .responsive-title {
-    font-size: 2.5rem; /* Restores Bootstrap's native fs-1 size on desktop */
+    font-size: 2.5rem;
   }
   .responsive-subtitle {
-    font-size: 1.25rem; /* Restores Bootstrap's native fs-5 size on desktop */
+    font-size: 1.25rem; 
   }
   .responsive-details {
     font-size: 1rem;
   }
 }
+
+@media (max-width: 1199.98px) {
+  .hide-on-mobile {
+    display: none !important;
+  }
+  
+  .hide-on-desktop {
+    display: block !important;
+  }
+}
+
+@media (min-width: 1200px) {
+  .hide-on-desktop {
+    display: none !important;
+  }
+  
+  .hide-on-mobile {
+    display: block !important;
+  }
+}
+
+

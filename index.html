@@ -51,36 +51,62 @@
 
     <section id="about" class="container-fluid min-vh-100 d-flex flex-column justify-content-start pt-4"
       style="background-color: #ffffff;">
-      <div class="container">
-        <div class="d-flex flex-column flex-md-row justify-content-center align-items-stretch gap-2 mx-auto"
-          style="max-width: 1200px;">
+      <div class="container d-flex flex-column align-items-center">
+        <div class="d-flex flex-column flex-xl-row justify-content-center align-items-center align-items-xl-stretch gap-3 mx-auto w-100" style="max-width: 1200px;">
 
-          <!-- LEFT CONTAINER -->
           <div class="card w-100 shadow-sm" style="max-width: 700px; min-height: 250px;">
-            <div class="card-body d-flex flex-row align-items-center gap-4 gap-sm-4 p-4 p-sm-5 text-font">
+            <div class="card-body p-4 p-sm-5 text-font">
 
-              <div class="d-flex flex-column align-items-center gap-2 flex-shrink-0"
-                style="width: 32%; max-width: 180px;">
-                <img src="assets/img/profile.jpg" alt="Jose Miguel Manzo"
-                  class="w-100 h-auto object-fit-cover shadow-sm" style="aspect-ratio: 1 / 1; border-radius: 25%;">
+              <div class="d-flex flex-row align-items-center gap-4 gap-sm-4">
+                <div class="d-flex flex-column align-items-center gap-2 flex-shrink-0"
+                  style="width: 32%; max-width: 180px;">
+                  <img src="assets/img/profile.jpg" alt="Jose Miguel Manzo"
+                    class="w-100 h-auto object-fit-cover shadow-sm" style="aspect-ratio: 1 / 1; border-radius: 25%;">
+                </div>
+
+                <div class="text-start flex-grow-1 ps-2">
+                  <h1 class="fw-bold mb-1 responsive-title text-color">Jose Miguel Manzo</h1>
+                  <p class="responsive-subtitle mb-2 text-color">Student Developer</p>
+
+                  <div class="responsive-details">
+                    <div class="mb-2 text-color">
+                      <strong>Email:</strong>
+                      <span class="d-block d-sm-inline text-break text-color">josemiguelmanzo516@gmail.com</span>
+                    </div>
+                    <div class="mb-2 text-color">
+                      <strong>Contact Number:</strong>
+                      <span class="text-color">Upon request</span>
+                    </div>
+                    <div class="text-color">
+                      <strong>Location:</strong>
+                      <span class="text-color">Batangas, Philippines</span>
+                    </div>
+                  </div>
+                </div>
               </div>
 
-              <div class="text-start flex-grow-1 ps-2">
-                <h1 class="fw-bold mb-1 responsive-title text-color">Jose Miguel Manzo</h1>
-                <p class="responsive-subtitle mb-2text-color">Student Developer</p>
-
-                <div class="responsive-details">
-                  <div class="mb-2 text-color">
-                    <strong>Email:</strong>
-                    <span class="d-block d-sm-inline text-break text-color">josemiguelmanzo516@gmail.com</span>
+              <div class="education-mobile-wrapper hide-on-desktop">
+                <hr class="my-4" style="border-top: 1px solid #2A2B2A; opacity: 0.10;">
+                <h4 class="fw-bold mb-4" style="color: #2A2B2A;">Education</h4>
+                <div class="education-timeline">
+                  <div class="timeline-item position-relative ps-4">
+                    <span class="timeline-dot position-absolute rounded-circle"></span>
+                    <div class="timeline-content">
+                      <h5 class="fw-bold mb-1" style="color: #2A2B2A; font-size: 1.05rem">Bachelor of Science in
+                        Information Technology</h5>
+                      <div class="text-secondary mb-1" style="font-size: 0.95rem;">Polytechnic University of the
+                        Philippines Santo Tomas</div>
+                      <div class="text-muted small">2024 - Present</div>
+                    </div>
                   </div>
-                  <div class="mb-2 text-color">
-                    <strong>Contact Number:</strong>
-                    <span class="text-color">Upon request</span>
-                  </div>
-                  <div class="text-color">
-                    <strong>Location:</strong>
-                    <span class="text-color">Batangas, Philippines</span>
+                  <div class="timeline-item position-relative ps-4">
+                    <span class="timeline-dot position-absolute rounded-circle"></span>
+                    <div class="timeline-content">
+                      <h5 class="fw-bold mb-1" style="color: #2A2B2A; font-size: 1.05rem;">Science, Technology,
+                        Engineering, and Mathematics (STEM)</h5>
+                      <div class="text-secondary mb-1" style="font-size: 0.95rem;">Tanauan Institute Inc.</div>
+                      <div class="text-muted small">2022 - 2024</div>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -88,12 +114,9 @@
             </div>
           </div>
 
-          <!-- RIGHT CONTAINER -->
-          <div class="card w-100 shadow-sm" style="max-width: 450px; min-height: 250px;">
+          <div class="card w-100 shadow-sm right-container hide-on-mobile" style="max-width: 450px; min-height: 250px;">
             <div class="card-body d-flex flex-column p-4 ">
-
               <h4 class="fw-bold mb-4" style="color: #2A2B2A;">Education</h4>
-
               <div class="education-timeline">
                 <div class="timeline-item position-relative ps-4">
                   <span class="timeline-dot position-absolute rounded-circle"></span>
@@ -101,8 +124,7 @@
                     <h5 class="fw-bold mb-1" style="color: #2A2B2A; font-size: 1.05rem">Bachelor of Science in
                       Information Technology</h5>
                     <div class="text-secondary mb-1" style="font-size: 0.95rem;">Polytechnic University of the
-                      Philippines
-                      Santo Tomas</div>
+                      Philippines Santo Tomas</div>
                     <div class="text-muted small">2024 - Present</div>
                   </div>
                 </div>
@@ -110,8 +132,7 @@
                   <span class="timeline-dot position-absolute rounded-circle"></span>
                   <div class="timeline-content">
                     <h5 class="fw-bold mb-1" style="color: #2A2B2A; font-size: 1.05rem;">Science, Technology,
-                      Engineering,
-                      and Mathematics (STEM)</h5>
+                      Engineering, and Mathematics (STEM)</h5>
                     <div class="text-secondary mb-1" style="font-size: 0.95rem;">Tanauan Institute Inc.</div>
                     <div class="text-muted small">2022 - 2024</div>
                   </div>
@@ -119,6 +140,7 @@
               </div>
             </div>
           </div>
+
         </div>
 
         <div class="mx-auto mt-5 text-start text-font" style="max-width: 1150px; padding-left: 12px;">
