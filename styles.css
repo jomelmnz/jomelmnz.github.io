@@ -2,8 +2,13 @@
   background-color: rgba(255, 255, 255, 0.6) !important; 
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
-  
   transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.navbar-color .nav-link,
+.navbar-color .nav-logo {
+  color: #2A2B2A;
+  transition: color 0.3s ease-in-out;
 }
 
 .navbar-color.nav-scrolled {
@@ -17,7 +22,8 @@
   color: #e5e3e3 !important;
 }
 
-.navbar-color.nav-scrolled .nav-logo {
+.navbar-color.nav-scrolled .nav-logo,
+.navbar-color.nav-scrolled .nav-logo-text {
   color: #f4f4f4 !important;
 }
 
@@ -109,5 +115,42 @@
     padding: 1rem;
     border-radius: 8px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
+  }
+}
+
+/* Base font sizes for small mobile screens (Android Compact) */
+.responsive-title {
+  font-size: 1.2rem;
+  line-height: 1.2;
+}
+.responsive-subtitle {
+  font-size: 0.85rem;
+}
+.responsive-details {
+  font-size: 0.65rem;
+}
+
+/* Upscale fonts smoothly once screen reaches tablet or desktop dimensions */
+@media (min-width: 495px) {
+  .responsive-title {
+    font-size: 1.8rem;
+  }
+  .responsive-subtitle {
+    font-size: 1.1rem;
+  }
+  .responsive-details {
+    font-size: 0.85rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .responsive-title {
+    font-size: 2.5rem; /* Restores Bootstrap's native fs-1 size on desktop */
+  }
+  .responsive-subtitle {
+    font-size: 1.25rem; /* Restores Bootstrap's native fs-5 size on desktop */
+  }
+  .responsive-details {
+    font-size: 1rem;
   }
 }
