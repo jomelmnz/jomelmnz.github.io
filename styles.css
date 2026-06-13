@@ -109,6 +109,10 @@
   scroll-margin-top: 95px; 
 }
 
+.fs-7 {
+  font-size: 0.90rem !important;
+}
+
 @media (max-width: 767px) {
   .navbar-collapse {
     background-color: #ffffff; 
