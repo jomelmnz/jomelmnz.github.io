@@ -61,3 +61,18 @@
     display: block !important;
   }
 }
+
+@media (max-width: 767px) {
+    .navbar-collapse {
+        background-color: transparent !important;
+        box-shadow: none !important;              
+        border: none !important;                  
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        
+    }
+    
+    .navbar-nav {
+        gap: 1.5rem !important; 
+    }
+}

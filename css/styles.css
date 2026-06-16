@@ -1,44 +1,5 @@
-.navbar-color {
-  background-color: rgba(255, 255, 255, 0.6) !important; 
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
-  transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
-}
-
-.navbar-color .nav-link,
-.navbar-color .nav-logo {
-  color: #2A2B2A;
-  transition: color 0.3s ease-in-out;
-}
-
-.navbar-color.nav-scrolled {
-  background-color: #1818188d !important; 
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
-  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.10) !important; 
-}
-
-.navbar-color.nav-scrolled .nav-link {
-  color: #e5e3e3 !important;
-}
-
-.navbar-color.nav-scrolled .nav-logo,
-.navbar-color.nav-scrolled .nav-logo-text {
-  color: #f4f4f4 !important;
-}
-
-
-.navbar-nav .nav-link {
-  font-family: "Lato";
-  font-size: 14px;                                            
-  letter-spacing: 0.3px;                 
-}
-
-.nav-logo-text {
-  font-family: "Lato";
-  letter-spacing: 1px; 
-  font-weight: 700;
-  font-size: 18px;
+main {
+  padding-top: 90px; 
 }
 
 .text-font{
