@@ -46,7 +46,7 @@
             <a class="nav-link" href="#portfolio">Portfolio</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#experience">Experience</a>
+            <a class="nav-link" href="#work-process">Process</a>
           </li>
         </ul>
       </div>
@@ -76,7 +76,7 @@
                 </div>
 
                 <div class="text-start flex-grow-1 ps-2">
-                  <h1 class="fw-bold mb-1 responsive-title text-color">Jose Miguel Manzo</h1>
+                  <h1 class="fw-bold mb-1 title text-color">Jose Miguel Manzo</h1>
                   <p class="responsive-subtitle mb-2 text-color">Student Developer</p>
 
                   <div class="responsive-details">
@@ -100,7 +100,7 @@
               <div class="education-mobile-wrapper hide-on-desktop d-flex flex-column mt-3">
                 <div class="collapse px-4 px-sm-5" id="mobileEducationCollapse">
                   <hr class="my-4" style="border-top: 1px solid #2A2B2A; opacity: 0.20;">
-                  <h4 class="fw-bold mb-4 fs-4 fs-md-3" style="color: #2A2B2A;">Education</h4>
+                  <h3 class="fw-bold mb-4 fs-4 fs-md-3" style="color: #2A2B2A;">Education</h3>
                   <div class="education-timeline pb-3">
                     <div class="timeline-item position-relative ps-4">
                       <span class="timeline-dot position-absolute rounded-circle"></span>
@@ -144,7 +144,7 @@
           <!--DESKTOP MODE EDUCATION CARD-->
           <div class="card w-100 shadow-sm right-container hide-on-mobile" style="max-width: 450px; min-height: 250px;">
             <div class="card-body d-flex flex-column p-4 ">
-              <h4 class="fw-bold mb-4" style="color: #2A2B2A;">Education</h4>
+              <h3 class="fw-bold mb-4" style="color: #2A2B2A;">Education</h3>
               <div class="education-timeline">
                 <div class="timeline-item position-relative ps-4">
                   <span class="timeline-dot position-absolute rounded-circle"></span>
@@ -172,7 +172,7 @@
         </div>
 
         <div class="mx-auto mt-5 text-start text-font" style="max-width: 1150px; padding-left: 12px;">
-          <h4 class="fw-bold mb-3" style="color: #2A2B2A;">About Me</h4>
+          <h3 class="fw-bold mb-3" style="color: #2A2B2A;">About Me</h3>
           <p class="text-color lh-base" style="color: #2A2B2A; font-size: 1.05rem;">
             I am an IT student at PUP Santo Tomas and an aspiring software engineer. I am currently building
             hands-on projects to strengthen my skills in both backend and frontend technologies. I focus on
@@ -185,7 +185,7 @@
 
         <!--TECH STACK SECION-->
         <div class="w-100 mt-4 text-start text-font" style="max-width: 1150px; padding-left: 12px;">
-          <h4 class="fw-bold mb-3 text-center text-sm-start" style="color: #2A2B2A;">Tech Stack</h4>
+          <h3 class="fw-bold mb-4 text-center text-sm-start" style="color: #2A2B2A;">Tech Stack</h3>
 
           <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4 g-3 justify-content-center">
 
@@ -249,72 +249,93 @@
 
 
 
-    <section id="portfolio" class="container-fluid min-vh-100 d-flex flex-column justify-content-center mt-4 py-5"
-      style="background-color: #ffffff;">
+    <section id="portfolio" class="container-fluid min-vh-100 d-flex flex-column justify-content-center mt-4 py-5" style="background-color: #ffffff; scroll-margin-top: 10px; ">
       <div class="container d-flex flex-column align-items-center">
 
         <!--PORTFOLIO SECION-->
         <div class="w-100 mt-5 text-start text-font" style="max-width: 1150px; padding-left: 12px;">
-          <h4 class="fw-bold mb-4 text-center text-sm-start" style="color: #2A2B2A;">Portfolio</h4>
+          <h3 class="fw-bold mb-4 text-center text-sm-start" style="color: #2A2B2A;">Portfolio</h3>
 
           <div class="row g-4">
 
             <div class="col-12 col-sm-6 col-md-4">
               <div class="card shadow h-100" style="min-height: 150px;">
-                <img src="assets/img/f1_topdown_racing.jpg" class="card-img-top" alt="F1 Top-Down Racing Image">
+                <div class="ratio ratio-16x9 bg-light"
+                  style="border-top-left-radius: var(--bs-card-inner-border-radius); border-top-right-radius: var(--bs-card-inner-border-radius); overflow: hidden;">
+                  <img src="assets/img/f1_topdown_racing.jpg" class="card-img-top" alt="Lockdown Defense Image">
+                </div>
                 <div class="card-body">
-                  <h5 class="card-title">F1 Top-Down Racing</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card’s content.</p>
-                  <a href="#" class="btn btn-outline-dark">View in Github</a>
+                  <div class="mb-2">
+                    <span class="badge bg-dark-subtle text-dark fs-7">Python</span>
+                    <span class="badge bg-dark-subtle text-dark fs-7">Pygame</span>
+                  </div>
+                  <h4 class="card-title mt-3">F1 Top-Down Racing</h4>
+                  <p class="card-text">A casual, top-down 2D arcade mini-game built with a retro pixel art style,
+                    featuring responsive car handling and smooth background parallax scrolling.</p>
+                  <a href="https://github.com/jomelmnz/F1-Top-down-Racing" target="_blank" rel="noopener noreferrer"
+                    class="btn btn-outline-dark mt-auto stretched-link">View in Github</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-4">
+              <div class="card shadow h-100">
+                <div class="ratio ratio-16x9 bg-light"
+                  style="border-top-left-radius: var(--bs-card-inner-border-radius); border-top-right-radius: var(--bs-card-inner-border-radius); overflow: hidden;">
+                  <img src="assets/img/lockdown_defense.jpg" class="card-img-top" alt="Lockdown Defense Image">
+                </div>
+                <div class="card-body">
+                  <div class="mb-2">
+                    <span class="badge bg-dark-subtle text-dark fs-7">Python</span>
+                    <span class="badge bg-dark-subtle text-dark fs-7">Pygame</span>
+                  </div>
+                  <h4 class="card-title mt-3">Lockdown Defense</h4>
+                  <p class="card-text">A classic 2D tower defense game focused on strategic placement, resource
+                    survival, and upgrading stationary turrets to hold off waves.</p>
+                  <a href="https://github.com/Cheztahcry/Tower-Defense" target="_blank" rel="noopener noreferrer"
+                    class="btn btn-outline-dark mt-auto stretched-link">View in Github</a>
                 </div>
               </div>
             </div>
 
             <div class="col-12 col-sm-6 col-md-4">
               <div class="card shadow h-100" style="min-height: 150px;">
-                <img src="assets/img/f1_topdown_racing.jpg" class="card-img-top" alt="F1 Top-Down Racing Image">
+                <div class="ratio ratio-16x9 bg-light"
+                  style="border-top-left-radius: var(--bs-card-inner-border-radius); border-top-right-radius: var(--bs-card-inner-border-radius); overflow: hidden;">
+                  <img src="assets/img/house_central.jpg" class="card-img-top" alt="Lockdown Defense Image">
+                </div>
                 <div class="card-body">
-                  <h5 class="card-title">Tower Defense</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card’s content.</p>
-                  <a href="#" class="btn btn-outline-dark">View in Github</a>
+                  <div class="mb-2">
+                    <span class="badge bg-dark-subtle text-dark fs-7">PHP</span>
+                    <span class="badge bg-dark-subtle text-dark fs-7">JavaScript</span>
+                    <span class="badge bg-dark-subtle text-dark fs-7">Bootstrap</span>
+                  </div>
+                  <h4 class="card-title mt-3">House Central</h4>
+                  <p class="card-text">A web platform designed to streamline boarding house operations, handle property
+                    management tasks, and organize basic records cleanly.</p>
+                  <a href="https://github.com/jomelmnz/HouseCentral" target="_blank" rel="noopener noreferrer"
+                    class="btn btn-outline-dark mt-auto stretched-link">View in Github</a>
                 </div>
               </div>
             </div>
 
             <div class="col-12 col-sm-6 col-md-4">
               <div class="card shadow h-100" style="min-height: 150px;">
-                <img src="assets/img/f1_topdown_racing.jpg" class="card-img-top" alt="F1 Top-Down Racing Image">
-                <div class="card-body">
-                  <h5 class="card-title">House Central</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card’s content.</p>
-                  <a href="#" class="btn btn-outline-dark">View in Github</a>
+                <div class="ratio ratio-16x9 bg-light"
+                  style="border-top-left-radius: var(--bs-card-inner-border-radius); border-top-right-radius: var(--bs-card-inner-border-radius); overflow: hidden;">
+                  <img src="assets/img/stay_sto_tomas.jpg" class="card-img-top" alt="Lockdown Defense Image">
                 </div>
-              </div>
-            </div>
-
-            <div class="col-12 col-sm-6 col-md-4">
-              <div class="card shadow h-100" style="min-height: 150px;">
-                <img src="assets/img/f1_topdown_racing.jpg" class="card-img-top" alt="F1 Top-Down Racing Image">
                 <div class="card-body">
-                  <h5 class="card-title">Granjero Manzo</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card’s content.</p>
-                  <a href="#" class="btn btn-outline-dark">View in Github</a>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-12 col-sm-6 col-md-4">
-              <div class="card shadow h-100" style="min-height: 150px;">
-                <img src="assets/img/f1_topdown_racing.jpg" class="card-img-top" alt="F1 Top-Down Racing Image">
-                <div class="card-body">
-                  <h5 class="card-title">StayStoTomas</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card’s content.</p>
-                  <a href="#" class="btn btn-outline-dark">View in Github</a>
+                  <div class="mb-2">
+                    <span class="badge bg-dark-subtle text-dark fs-7">PHP</span>
+                    <span class="badge bg-dark-subtle text-dark fs-7">MySQL</span>
+                    <span class="badge bg-dark-subtle text-dark fs-7">CSS</span>
+                  </div>
+                  <h4 class="card-title mt-3">StayStoTomas</h4>
+                  <p class="card-text">A localized property listing platform featuring interactive map pinning to help
+                    users easily find, view, and locate available boardhouses and room rentals within the area.</p>
+                  <a href="https://github.com/riveracharlie/stay-sto-tomas" target="_blank" rel="noopener noreferrer"
+                    class="btn btn-outline-dark mt-auto stretched-link">View in Github</a>
                 </div>
               </div>
             </div>
@@ -325,11 +346,133 @@
       </div>
     </section>
 
-    <section id="experience" class="container-fluid min-vh-100 d-flex flex-column justify-content-center"
-      style="background-color: #ffffff;">
-      <div class="container">
-        <h2>Experience</h2>
-        <p>Your work history or school timeline goes here...</p>
+
+    <!--WORK PROCESS SECION-->
+    <section id="work-process"
+      class="container-fluid text-font min-vh-100 d-flex flex-column justify-content-start mt-4 py-5"
+      style="background-color: #ffffff; scroll-margin-top: 40px;">
+      <div class="container d-flex flex-column align-items-center">
+
+        <div class="w-100 text-start text-font" style="max-width: 1150px; padding-left: 12px;">
+          <h3 class="fw-bold mb-4 text-center text-sm-start" style="color: #2A2B2A;">Work Process</h3>
+
+          <div class="row g-4 row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-4 mb-3">
+
+            <div class="col">
+              <div class="card shadow h-100">
+                <div class="card-body p-4">
+                  <div
+                    class="d-flex align-items-center justify-content-center shadow-sm border border-1 border-dark rounded-circle fw-bold mb-3"
+                    style="width: 40px; height: 40px; font-size: 20px;">
+                    1
+                  </div>
+                  <h4 class="card-title C mb-3">Analysis</h4>
+                  <p class="card-text">Analyze project goals, target users, and technical requirements to define the
+                    best development approach.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card shadow h-100">
+                <div class="card-body p-4">
+                  <div
+                    class="d-flex align-items-center justify-content-center shadow-sm border border-1 border-dark rounded-circle fw-bold mb-3"
+                    style="width: 40px; height: 40px; font-size: 20px;">
+                    2
+                  </div>
+                  <h4 class="card-title fw-bold mb-3">System Design</h4>
+                  <p class="card-text">Create a structured plan outlining technologies, features, and scope to guide the
+                    development process.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card shadow h-100">
+                <div class="card-body p-4">
+                  <div
+                    class="d-flex align-items-center justify-content-center shadow-sm border border-1 border-dark rounded-circle fw-bold mb-3"
+                    style="width: 40px; height: 40px; font-size: 20px;">
+                    3
+                  </div>
+                  <h4 class="card-title fw-bold mb-3">Implementation</h4>
+                  <p class="card-text">Build the solution using clean, efficient code with continuous improvements and
+                    testing.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card shadow h-100">
+                <div class="card-body p-4">
+                  <div
+                    class="d-flex align-items-center justify-content-center shadow-sm border border-1 border-dark rounded-circle fw-bold mb-3"
+                    style="width: 40px; height: 40px; font-size: 20px;">
+                    4
+                  </div>
+                  <h4 class="card-title fw-bold mb-3">Deployment</h4>
+                  <p class="card-text">Deliver the final product with proper documentation and provide support for
+                    maintenance and updates.</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+
+        <!--SERVICES SECTION-->
+        <div class="w-100 text-start text-font" style="max-width: 1150px; padding-left: 12px;">
+          <h3 class="fw-bold mb-4 mt-5 text-center text-sm-start" style="color: #2A2B2A;">Services</h3>
+
+          <div class="row g-4 row-cols-1 row-cols-md-3">
+
+            <div class="col">
+              <div class="card shadow h-100">
+                <div class="card-body p-4">
+                  <div
+                    class="d-flex align-items-center justify-content-center mb-3"
+                    style="width: 40px; height: 40px; font-size: 20px;">
+                    <img src="assets/svg/frontend_icon.svg" alt="Database Icon" width="35" height="35">
+                  </div>
+                  <h4 class="card-title C mb-3">Frontend Development</h4>
+                  <p class="card-text">Develop responsive interfaces using HTML, CSS, Bootstrap, and JavaScript.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card shadow h-100">
+                <div class="card-body p-4">
+                  <div
+                    class="d-flex align-items-center justify-content-center mb-3"
+                    style="width: 40px; height: 40px; font-size: 20px;">
+                    <img src="assets/svg/backend_icon.svg" alt="Database Icon" width="30" height="30">
+                  </div>
+                  <h4 class="card-title fw-bold mb-3">Backend Development</h4>
+                  <p class="card-text">Build server-side logic and connect applications with databases.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card shadow h-100">
+                <div class="card-body p-4">
+                  <div
+                    class="d-flex align-items-center justify-content-center mb-3"
+                    style="width: 40px; height: 40px; font-size: 20px;">
+                    <img src="assets/svg/database_icon.svg" alt="Database Icon" width="30" height="30">
+                  </div>
+                  <h4 class="card-title fw-bold mb-3">Database Management</h4>
+                  <p class="card-text">Design, implement, and manage relational databases using MySQL.</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
       </div>
     </section>
 
