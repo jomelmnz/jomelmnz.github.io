@@ -128,3 +128,26 @@ main {
   transform: translate(-50%, -50%);
   background-color: #6c757d;
 }
+
+.social-links a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  height: auto;
+  padding: 0;
+  background: transparent;
+  border: none;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.social-links a:hover img {
+  opacity: 1;
+  transform: translateY(-2px);
+}
+
+.social-links img {
+  width: clamp(16px, 3vw, 24px);
+  height: clamp(16px, 3vw, 24px);
+  object-fit: contain;
+}
