@@ -98,7 +98,7 @@
               </div>
 
               <!--MOBILE MODE EDUCATION CARD-->
-              <div class="education-mobile-wrapper hide-on-desktop d-flex flex-column mt-3">
+              <div class="education-mobile-wrapper hide-on-desktop d-flex flex-column">
                 <div class="collapse px-4 px-sm-5" id="mobileEducationCollapse">
                   <hr class="my-4" style="border-top: 1px solid #2A2B2A; opacity: 0.20;">
                   <h3 class="fw-bold mb-4 fs-4 fs-md-3" style="color: #2A2B2A;">Education</h3>
@@ -129,13 +129,15 @@
                   </div>
                 </div>
 
-                <button class="btn w-100 py-1 mt-4 d-flex justify-content-center align-items-center" type="button"
-                  data-bs-toggle="collapse" data-bs-target="#mobileEducationCollapse" aria-expanded="false"
-                  aria-controls="mobileEducationCollapse"
-                  style="background-color: #ffffff; border: none; border-radius: 4px; transition: all 0.3s ease;"
-                  id="scrollHandleBtn">
-                  <span class="text-muted"
-                    style="font-size: 0.6rem; transform: rotate(0deg); transition: transform 0.3s ease;">●●●</span>
+                <button
+                  class="btn custom-coalesce-btn w-100 py-1 mt-4 d-flex justify-content-center align-items-center collapsed"
+                  type="button" data-bs-toggle="collapse" data-bs-target="#mobileEducationCollapse"
+                  aria-expanded="false" aria-controls="mobileEducationCollapse" id="scrollHandleBtn">
+                  <div class="animation-wrapper">
+                    <span class="circle dot-left"></span>
+                    <span class="circle dot-center"></span>
+                    <span class="circle dot-right"></span>
+                  </div>
                 </button>
               </div>
 
@@ -250,7 +252,8 @@
 
 
 
-    <section id="portfolio" class="container-fluid min-vh-100 d-flex flex-column justify-content-center mt-4 py-5" style="background-color: #ffffff; scroll-margin-top: 10px; ">
+    <section id="portfolio" class="container-fluid min-vh-100 d-flex flex-column justify-content-center mt-4 py-5"
+      style="background-color: #ffffff; scroll-margin-top: 10px; ">
       <div class="container d-flex flex-column align-items-center">
 
         <!--PORTFOLIO SECION-->
@@ -432,8 +435,7 @@
             <div class="col">
               <div class="card shadow h-100">
                 <div class="card-body p-4">
-                  <div
-                    class="d-flex align-items-center justify-content-center mb-3"
+                  <div class="d-flex align-items-center justify-content-center mb-3"
                     style="width: 40px; height: 40px; font-size: 20px;">
                     <img src="assets/svg/frontend_icon.svg" alt="Database Icon" width="35" height="35">
                   </div>
@@ -446,8 +448,7 @@
             <div class="col">
               <div class="card shadow h-100">
                 <div class="card-body p-4">
-                  <div
-                    class="d-flex align-items-center justify-content-center mb-3"
+                  <div class="d-flex align-items-center justify-content-center mb-3"
                     style="width: 40px; height: 40px; font-size: 20px;">
                     <img src="assets/svg/backend_icon.svg" alt="Database Icon" width="30" height="30">
                   </div>
@@ -460,8 +461,7 @@
             <div class="col">
               <div class="card shadow h-100">
                 <div class="card-body p-4">
-                  <div
-                    class="d-flex align-items-center justify-content-center mb-3"
+                  <div class="d-flex align-items-center justify-content-center mb-3"
                     style="width: 40px; height: 40px; font-size: 20px;">
                     <img src="assets/svg/database_icon.svg" alt="Database Icon" width="30" height="30">
                   </div>
