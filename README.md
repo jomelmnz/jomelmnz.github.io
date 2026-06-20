@@ -1,2 +1,2 @@
 # jomelmnz.github.io
-Personal Profile
+Personal Portfolio
