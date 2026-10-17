@@ -15,7 +15,7 @@ window.addEventListener('scroll', () => {
     if (isClickedScrolling) return;
 
     let currentSectionId = '';
-    
+
     sections.forEach(section => {
         const sectionTop = section.offsetTop;
         if (window.scrollY >= (sectionTop - 160)) {
@@ -25,7 +25,7 @@ window.addEventListener('scroll', () => {
 
     navLinks.forEach(link => {
         link.classList.remove('active-section');
-        link.classList.remove('active'); 
+        link.classList.remove('active');
 
         if (link.getAttribute('href') === `#${currentSectionId}`) {
             link.classList.add('active-section');
@@ -36,10 +36,10 @@ window.addEventListener('scroll', () => {
 navLinks.forEach(link => {
     link.addEventListener('click', (e) => {
         e.preventDefault();
-        
+
         const targetId = link.getAttribute('href');
         const targetSection = document.querySelector(targetId);
-        
+
         if (!targetSection) return;
 
         isClickedScrolling = true;
@@ -71,3 +71,4 @@ navLinks.forEach(link => {
         }
     });
 });
+

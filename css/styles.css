@@ -14,6 +14,25 @@ main {
   color: #2A2B2A;
 }
 
+.section-container {
+  width: 100%;
+  max-width: 1150px;
+  padding-left: 12px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section-title {
+  color: #2A2B2A;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+
+.custom-section {
+  background-color: #ffffff;
+  scroll-margin-top: 40px;
+}
+
 .timeline-item {
   position: relative;
   display: block;       
