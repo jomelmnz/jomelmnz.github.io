@@ -145,7 +145,7 @@ const activitiesData = [
     badges: ["HTML", "CSS", "Bootstrap", "UI/UX Design"],
     title: "Nintendo Switch Bento Layout",
     description: "A web activity featuring a dark-themed bento grid layout inspired by Nintendo Switch hardware, showcasing console specs and the Joy-Con ecosystem.",
-    link: "https://jomelmnz.github.io/Web-Development-Activities/bento",
+    link: "https://jomelmnz.github.io/Web-Development-Activities/Activity 1 - Bento Layout",
     linkText: "View Live Activity"
   }
 ];
