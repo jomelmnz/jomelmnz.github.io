@@ -147,6 +147,13 @@ const activitiesData = [
     description: "A web activity featuring a dark-themed bento grid layout inspired by Nintendo Switch hardware, showcasing console specs and the Joy-Con ecosystem.",
     link: "https://jomelmnz.github.io/Web-Development-Activities/Activity 1 - Bento Layout",
     linkText: "View Live Activity"
+  },
+  {
+    badges: ["HTML", "CSS", "Bootstrap", "JavaScript"],
+    title: "JSON Web Activity",
+    description: "A Clash of Clans-inspired training interface featuring a responsive troop grid and interactive modal popups showcasing detailed troop statistics like DPS and hitpoints.",
+    link: "https://jomelmnz.github.io/Web-Development-Activities/Activity 2 - JSON",
+    linkText: "View Live Activity"
   }
 ];
 
