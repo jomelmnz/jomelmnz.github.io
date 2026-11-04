@@ -120,7 +120,7 @@ for (let i = 0; i < projectsData.length; i++) {
     const colDiv = document.createElement("div");
     colDiv.className = "col-12 col-sm-6 col-md-4";
     colDiv.innerHTML = `
-    <div class="card shadow h-100 position-relative" style="min-height: 150px">
+    <div class="card shadow p-2 h-100 position-relative" style="min-height: 150px">
       <div class="ratio ratio-16x9 bg-light" style="border-top-left-radius: var(--bs-card-inner-border-radius); border-top-right-radius: var(--bs-card-inner-border-radius); overflow: hidden;">
         <img src="${project.imgSrc}" class="card-img-top" alt="${project.imgAlt}" />
       </div>
@@ -185,7 +185,7 @@ for (let i = 0; i < activitiesData.length; i++) {
         <h4 class="card-title fw-bold mt-3">
           ${activity.title}
         </h4>
-        <p class="card-text text-color mb-4 w-75">
+        <p class="card-text text-color mb-4">
           ${activity.description}
         </p>
         <a
