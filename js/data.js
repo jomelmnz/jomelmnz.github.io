@@ -154,6 +154,13 @@ const activitiesData = [
     description: "A Clash of Clans-inspired training interface featuring a responsive troop grid and interactive modal popups showcasing detailed troop statistics like DPS and hitpoints.",
     link: "https://jomelmnz.github.io/Web-Development-Activities/Activity 2 - JSON",
     linkText: "View Live Activity"
+  },
+  {
+    badges: ["HTML", "CSS", "Bootstrap", "JavaScript", "REST API"],
+    title: "Hyrule Compendium API",
+    description: "A Zelda-themed compendium web application that dynamically fetches and displays entries across categories like creatures, monsters, equipment, materials, and treasures.",
+    link: "https://jomelmnz.github.io/Web-Development-Activities/Midterm - API integration",
+    linkText: "View Live Activity"
   }
 ];
 
